@@ -18,7 +18,7 @@ const FooterBanner = ({ footerBanner: { quote, author, smallText, midText, produ
           <p className="icons">
             <a href="https://www.instagram.com/sunny_karamel_art/">Instagram: <AiFillInstagram /></a>
           </p>
-          <Link href={`/product/${product}`}>
+          <Link href={`/cards`}>
             <button type="button">{buttonText}</button>
           </Link>
         </div>
